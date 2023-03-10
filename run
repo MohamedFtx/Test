@@ -8,7 +8,7 @@ echo 'put the code: '
 
 read code
 
-if [$name != README.md]; then
+if [ $name == README.md ]; then
 
 	echo -e $code >> $name
 else
