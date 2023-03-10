@@ -15,6 +15,12 @@ fi
 chmod u+x $name
 cat $name
 git add .
-read -p "enter your commit: " txt
+echo 'enter your commit: '
+read -a txt
 git commit -m$txt
 git push
+# for loop from 1/10 to 10/10
+for a in `seq 1 10`; do
+    echo "$a/10 to Exit."
+    sleep 1;
+done
