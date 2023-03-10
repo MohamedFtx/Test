@@ -17,5 +17,7 @@ cat $name
 git add .
 echo 'put the msg: '
 read txt
+ter='<<'+$txt+'>>'
+echo $ter
 git commit -m$txt
 git push
