@@ -1,5 +1,8 @@
 #!/bin/bash
 #!usr/bin/env bash
+
+git config --global user.email "mohamedmoutaoukil@gmail.com"
+git config --global user.name "MohamedFtx"
 echo 'put the name of file: '
 read name
 touch $name
