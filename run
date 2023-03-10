@@ -20,5 +20,6 @@ cat $name
 git add .
 echo 'put the msg: '
 read txt
-git commit -m$txt
+ter="'"$txt"'"
+git commit -m$ter
 git push
