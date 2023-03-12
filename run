@@ -5,8 +5,8 @@ touch $name
 #read -p "enter the code: " code
 
 if [ $name == README.md ]; then
-git config --global user.email "mohamedmoutaoukil667@gmaik.com"
-git config --global user.name "MohamedFtx"
+#git config --global user.email ""
+#git config --global user.name ""
 read -p "enter the code: " code
 echo -e $code >> $name
 else
